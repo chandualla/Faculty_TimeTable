@@ -10,6 +10,7 @@ const con = mysql.createConnection({
   database: 'wt152'
 });;
 const animal=5;
+const hello=14;
 app.use(session({
     secret:"secret",
     resave:false,

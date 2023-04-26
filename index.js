@@ -18,8 +18,24 @@ app.get("/register",(req,res)=>{
     res.sendFile(__dirname + "/register.html");
     console.log("success");
 });
+app.get("/fac_choice",(req,res)=>{
+    res.sendFile(__dirname + "/fac_choice.html");
+    console.log("success");
+});
 app.get("/admin_reg",(req,res)=>{
     res.sendFile(__dirname + "/admin_reg.html");
+    console.log("success");
+});
+app.get("/admin",(req,res)=>{
+    res.sendFile(__dirname + "/admin.html");
+    console.log("success");
+});
+app.get("/fac_registration",(req,res)=>{
+    res.sendFile(__dirname + "/fac_registration.html");
+    console.log("success");
+});
+app.get("/class_updation",(req,res)=>{
+    res.sendFile(__dirname + "/class_updation.html");
     console.log("success");
 });
 app.post("/register",(req,res)=>{
